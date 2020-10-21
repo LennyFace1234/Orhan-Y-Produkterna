@@ -1,14 +1,21 @@
 .container {
     display: flex;
-    padding-top: 20%;
     background-color: yellow;
+    align-items: center;
+    padding-top: 15%;
+    
+}
+
+.seperator{
+    flex-grow: 1;
+    height: 100px;
 
 }
 
 .item {
     background-color: lightblue;
     flex-grow: 1;
-    height: 100px;
+    height: 200px;
     margin-left: 1%;
     margin-right: 1%;
 
