@@ -37,7 +37,7 @@
 
     Font-size: 30px;
 
-    color: Black;
+    color: white;
 
     font-family: 'Oswald', sans-serif;
 }
@@ -47,14 +47,20 @@
 
     display: flex;
     justify-content: center;
+
+    color: white;
 }
 
 footer {
     text-align: center;
     padding: 3px;
-    background-color: lightgrey;
+    background-color: grey;
     position: fixed;
     bottom: 0;
     width: 100%;
 
+}
+
+body {
+    background-color: black;
 }
