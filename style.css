@@ -25,14 +25,19 @@
 }
 
 .navbar {
+    display:flex;
+    justify-content: center;
+
+    background-color: grey;
+}
+
+.navbar-item {
     display: flex;
     display: inline-block;
     justify-content: space-between;
     text-align: center;
     margin: 0;
-    padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+   
     flex-direction: row;
     flex-grow: 1;
 
@@ -41,6 +46,11 @@
     color: white;
 
     font-family: 'Oswald', sans-serif;
+}
+
+.navbar-seperator {
+    max-width: 36vh;
+    max-height: 1vh;
 }
 
 .titel {
