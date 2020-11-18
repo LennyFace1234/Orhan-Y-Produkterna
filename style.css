@@ -34,6 +34,7 @@
     padding-left: 80px;
     padding-right: 80px;
     flex-direction: row;
+    flex-grow: 1;
 
     Font-size: 30px;
 
