@@ -75,3 +75,16 @@ body {
     background-color: black;
     
 }
+
+.container-produkter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.item-produkter {
+    flex: 0 32%;
+    height: 125px;
+    margin-bottom: 2%;
+
+}
